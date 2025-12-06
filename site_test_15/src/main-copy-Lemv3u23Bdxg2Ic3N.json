@@ -1,0 +1,2666 @@
+{
+  "frames": [
+    {
+      "component": {
+        "attributes": {
+          "id": "ios2-2"
+        },
+        "components": [
+          {
+            "attributes": {
+              "id": "menu_toogle-2",
+              "type": "checkbox"
+            },
+            "classes": [
+              "menu_toogle"
+            ],
+            "custom-name": "menu_toogle",
+            "selector": {
+              "mainSelector": {
+                "pseudoClass": null,
+                "selectors": [
+                  {
+                    "active": true,
+                    "type": "id",
+                    "value": "menu_toogle"
+                  },
+                  {
+                    "active": true,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "checkbox",
+            "void": true
+          },
+          {
+            "attributes": {
+              "for": "menu_toogle-2",
+              "id": "iy282-2"
+            },
+            "classes": [
+              "hamburger"
+            ],
+            "components": [
+              {
+                "content": "_",
+                "type": "textnode"
+              },
+              {
+                "tagName": "br",
+                "void": true
+              },
+              {
+                "content": "_",
+                "type": "textnode"
+              },
+              {
+                "tagName": "br",
+                "void": true
+              },
+              {
+                "content": "_",
+                "type": "textnode"
+              }
+            ],
+            "custom-name": "hamburger",
+            "plugin-unwrap": false,
+            "privateStates": [
+              {
+                "expression": [
+                  {
+                    "fieldId": "fixed",
+                    "kind": "scalar",
+                    "label": "Fixed value",
+                    "options": {
+                      "value": "<span></span> <span></span><span></span>"
+                    },
+                    "propType": "field",
+                    "type": "property",
+                    "typeIds": [
+                      "String"
+                    ]
+                  }
+                ],
+                "id": "innerHTML"
+              }
+            ],
+            "selector": {
+              "mainSelector": {
+                "pseudoClass": null,
+                "selectors": [
+                  {
+                    "active": true,
+                    "type": "id",
+                    "value": "iy282"
+                  },
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "hamburger"
+                  }
+                ]
+              },
+              "operator": {
+                "displayName": "adjacent to",
+                "hasParam": false,
+                "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator",
+                "isCombinator": true,
+                "sentencePre": "When it is",
+                "stringRepresentation": " + ",
+                "type": "+"
+              },
+              "relatedSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "label"
+          },
+          {
+            "attributes": {
+              "for": "menu_toogle-2",
+              "id": "i310j-2"
+            },
+            "classes": [
+              "overlay",
+              "silex_element"
+            ],
+            "components": [
+              {
+                "content": "Labelgggggg",
+                "type": "textnode"
+              }
+            ],
+            "custom-name": "overlay",
+            "selector": {
+              "mainSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "id",
+                    "value": "i310j"
+                  },
+                  {
+                    "active": true,
+                    "type": "class",
+                    "value": "overlay"
+                  },
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "silex_element"
+                  }
+                ]
+              },
+              "operator": {
+                "displayName": "after",
+                "hasParam": false,
+                "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                "isCombinator": true,
+                "sentencePre": "When it is",
+                "stringRepresentation": " ~ ",
+                "type": "~"
+              },
+              "relatedSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "label"
+          },
+          {
+            "attributes": {
+              "id": "i4hki-6"
+            },
+            "classes": [
+              "silex_element",
+              "sidebar"
+            ],
+            "components": [
+              {
+                "attributes": {
+                  "id": "ihes6-6"
+                },
+                "classes": [
+                  "menu_title"
+                ],
+                "components": [
+                  {
+                    "content": "Menu",
+                    "type": "textnode"
+                  }
+                ],
+                "custom-name": "Menu",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "ihes6"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "menu_title"
+                      }
+                    ]
+                  }
+                },
+                "type": "text"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-6"
+                },
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "iggcg-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Accueil",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "iggcg"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_item\">Accueil</div>",
+                    "custom-name": "Accueil",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "Container_Accueil",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": false,
+                        "type": "id",
+                        "value": "iflgg"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-7"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-7"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-7"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-8"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-8"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-7"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-7"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-13"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-13"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-13"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-13"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-13"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-13"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-13"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-8-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-8-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-8-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-8-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-8-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-8-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-8-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-7-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-7-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-7-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-7-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-7-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-7-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-7-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-6-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-6-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-6-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-6-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-6-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-6-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-6-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-5-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-5-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-5-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-5-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-5-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-5-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-5-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-4-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-4-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-4-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-4-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-4-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-4-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-4-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-3-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-3-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-3-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-3-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-3-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-3-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-3-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
+                  "id": "iflgg-2-4-2-2-6"
+                },
+                "classes": [
+                  "div_item_subitem"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-5-2-2-6"
+                    },
+                    "classes": [
+                      "menu_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i8v4r-2-2-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i8v4r"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div  class=\"menu_item\">Categorie</div>",
+                    "custom-name": "Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": {
+                          "hasParam": false,
+                          "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+                          "sentencePre": "On mouse",
+                          "type": "hover"
+                        },
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "ia7mk-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_item"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-3-2-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-3-2-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  },
+                  {
+                    "attributes": {
+                      "id": "ia7mk-2-2-5-2-2-2-6"
+                    },
+                    "classes": [
+                      "menu_sub_item"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "idfj8-2-2-2-6"
+                        },
+                        "components": [
+                          {
+                            "content": "Sous_Categorie",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "idfj8"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-code-plugin__code": "<div class=\"menu_sub_item\">Sous_Categorie</div>",
+                    "custom-name": "ous_Categorie",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ia7mk-2-2-5"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "menu_sub_item"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "inside of",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ",
+                        "type": " "
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "div_item_subitem"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "custom-code"
+                  }
+                ],
+                "custom-name": "bloc_A_Dupliquer",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iflgg-2-4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "div_item_subitem"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              }
+            ],
+            "custom-name": "Sidebar",
+            "selector": {
+              "mainSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "id",
+                    "value": "i4hki"
+                  },
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "silex_element"
+                  },
+                  {
+                    "active": true,
+                    "type": "class",
+                    "value": "sidebar"
+                  }
+                ]
+              },
+              "operator": {
+                "displayName": "after",
+                "hasParam": false,
+                "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                "isCombinator": true,
+                "sentencePre": "When it is",
+                "stringRepresentation": " ~ ",
+                "type": "~"
+              },
+              "relatedSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "container"
+          },
+          {
+            "attributes": {
+              "id": "ip428-2"
+            },
+            "classes": [
+              "project_title"
+            ],
+            "components": [
+              {
+                "content": "Titre du projet",
+                "type": "textnode"
+              }
+            ],
+            "custom-name": "Titre_ptojet",
+            "selector": {
+              "mainSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "id",
+                    "value": "ip428"
+                  },
+                  {
+                    "active": true,
+                    "type": "class",
+                    "value": "project_title"
+                  }
+                ]
+              },
+              "operator": {
+                "displayName": "after",
+                "hasParam": false,
+                "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                "isCombinator": true,
+                "sentencePre": "When it is",
+                "stringRepresentation": " ~ ",
+                "type": "~"
+              },
+              "relatedSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "text"
+          },
+          {
+            "attributes": {
+              "id": "icl9v-2"
+            },
+            "classes": [
+              "content"
+            ],
+            "components": [
+              {
+                "attributes": {
+                  "id": "ie0n4-2"
+                },
+                "classes": [
+                  "titre_page"
+                ],
+                "components": [
+                  {
+                    "content": "Titre de la page",
+                    "type": "textnode"
+                  }
+                ],
+                "custom-name": "Titre_page",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "ie0n4"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "titre_page"
+                      }
+                    ]
+                  }
+                },
+                "type": "text"
+              },
+              {
+                "attributes": {
+                  "id": "i76ep-2"
+                },
+                "components": [
+                  {
+                    "content": "Paragraphe 1 zzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzz zzzzzz zzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzz zzzzzzzzzzzzz zzzzzzzz",
+                    "type": "textnode"
+                  }
+                ],
+                "custom-name": "Paragraphe1",
+                "type": "text"
+              },
+              {
+                "attributes": {
+                  "id": "iaz5ix-2-2-3",
+                  "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"
+                },
+                "classes": [
+                  "img"
+                ],
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iaz5ix"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "img"
+                      }
+                    ]
+                  }
+                },
+                "type": "image"
+              },
+              {
+                "attributes": {
+                  "id": "i6nlrp-2"
+                },
+                "components": [
+                  {
+                    "content": "Paragraphe 1 zzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzz zzzzzz zzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzz zzzzzzzzzzzzz zzzzzzzz",
+                    "type": "textnode"
+                  }
+                ],
+                "custom-name": "Paragraphe1",
+                "type": "text"
+              },
+              {
+                "attributes": {
+                  "id": "iaz5ix-2-2-2-2",
+                  "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"
+                },
+                "classes": [
+                  "img"
+                ],
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iaz5ix"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "img"
+                      }
+                    ]
+                  }
+                },
+                "type": "image"
+              }
+            ],
+            "custom-name": "Contenu_page_A_Dupliquer",
+            "selector": {
+              "mainSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "id",
+                    "value": "icl9v"
+                  },
+                  {
+                    "active": true,
+                    "type": "class",
+                    "value": "content"
+                  }
+                ]
+              },
+              "operator": {
+                "displayName": "after",
+                "hasParam": false,
+                "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                "isCombinator": true,
+                "sentencePre": "When it is",
+                "stringRepresentation": " ~ ",
+                "type": "~"
+              },
+              "relatedSelector": {
+                "selectors": [
+                  {
+                    "active": false,
+                    "type": "class",
+                    "value": "menu_toogle"
+                  }
+                ]
+              }
+            },
+            "type": "container"
+          }
+        ],
+        "docEl": {
+          "tagName": "html"
+        },
+        "head": {
+          "type": "head"
+        },
+        "nameForDataSource": "",
+        "publicStates": [],
+        "stylable": [
+          "background",
+          "background-color",
+          "background-image",
+          "background-repeat",
+          "background-attachment",
+          "background-position",
+          "background-size"
+        ],
+        "type": "wrapper"
+      },
+      "id": "aAjwiVtc1JfHR1yC"
+    }
+  ],
+  "id": "Lemv3u23Bdxg2Ic3N",
+  "name": "main copy"
+}

@@ -1,0 +1,16 @@
+# silexOverwrite: true
+# You will want to remove these lines if you customize your build process
+# Silex will overwrite this file unless you remove these lines
+# This is the default build process for plain eleventy sites
+image: node:20
+pages:
+  stage: deploy
+  environment: production
+  script:
+    - echo "The site will be deployed to $CI_PAGES_URL"
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_TAG'
+    - if: '$CI_PIPELINE_SOURCE == "trigger"'
